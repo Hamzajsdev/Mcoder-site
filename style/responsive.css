@@ -1,0 +1,327 @@
+
+/* Responsive Css */
+@media screen and (max-width: 1400px){
+    .bg-img{
+      width:100%;
+      height:auto
+    }
+    .client-section{
+      width:100%;
+      height:auto
+    }
+  }
+  @media screen and (max-width: 1020px){
+    .hide-content{
+      display:none
+    }
+    }
+  @media screen and (max-width: 1090px){
+    .main-widget-wrap-container{
+      display:flex;
+      justify-content:center;
+      align-item:center
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .box-bell {
+      max-width: 760px;
+      margin-top: 60px;
+      margin-right: 16px !important;
+    }
+    .stright-line::after{
+      content:'';
+      position: absolute;
+      width: 1px ;
+      height: 30%;
+      margin-top: -8.5%;
+      background: #444;
+      justify-content: right;
+      align-items: right;
+      display: flex;
+      margin-left:44%
+  
+    }
+    .detail-box-heading:not(:last-child):after {
+      content: "";
+     display: none;
+    }
+    .userClient {
+      display: none;
+    }
+    .title-inner {
+      margin-top:0px;
+      padding-top:0px
+  
+    }
+    .header-client{
+      margin-top:0px;
+      margin-bottom:80px
+    }
+    .description{
+      padding-left:80px;
+      padding-right:80px;
+    }
+     .main-widget-wrap-container{
+      display:flex;
+      justify-content:center;
+      align-item:center
+    }
+    .working-container{
+      margin-top:300px
+    }
+    .banner-wrapper{
+      width:70%;
+      justify-content:center;
+    }
+    .form-content{
+      width:100%;
+      margin-top:20px;
+    }
+    .banner-section{
+      margin-top:40px
+    }
+    .banner-description{
+      text-align:center
+    }
+  }
+  
+  @media screen and (max-width: 820px) {
+    .sliderImg {
+      max-height: 230px;
+    }
+  
+    .main-portfolio-container {
+      padding: 70px 20px;
+    }
+  
+    .responsive-contain {
+      padding-right: 0px;
+    }
+    .text-img{
+      width:120px;
+      height: 120px;
+      margin-top: 30px;
+    }
+     .main-widget-wrap-container{
+      display:flex;
+      justify-content:center;
+      align-item:center
+    }
+    .banner-description{
+      font-size:15px
+    }
+    .header-title{
+      font-size:30px
+    }
+    .logo {
+      width: 200px;
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 660px){
+    .stright-line::after{
+      content:'';
+      position: absolute;
+      width: 1px ;
+      height: 30%;
+      margin-top: -10%;
+      background: #444;
+      justify-content: right;
+      align-items: right;
+      display: flex;
+      margin-left:44%
+    }
+    .text-img{
+      width:120px;
+      height: 120px;
+      margin-top: 30px;
+    }
+     .main-widget-wrap-container{
+      display:flex;
+      justify-content:center;
+      align-item:center
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .header-bar {
+      display: none;
+    }
+    .social_icon {
+      margin-right: 0;
+    }
+    .header {
+      margin-top: 0px !important;
+    }
+    .icon {
+      padding: 10px 0px !important;
+      width: 40px !important;
+      height: 40px !important;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .main-office-foorter-responsive {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .description-footer {
+      width: 200px;
+    }
+  
+    .responsive-description {
+      width: 300px;
+    }
+     .main-widget-wrap-container{
+      display:flex;
+      justify-content:center;
+      align-item:center
+    }
+  }
+  @media (min-width: 320px) and (max-width: 575px) {
+    .header-logo {
+      width: 150px;
+      height: 50px;
+    }
+    .icon {
+      padding: 5px 0px !important;
+      width: 30px !important;
+      height: 30px !important;
+    }
+    .elementor-cotainer-office{
+      margin-left:20px;
+      text-align:left
+    }
+    .description-footer{
+      font-size:14px
+    }
+    .pt-20{
+      padding-top:20px !important
+    }
+  }
+  @media screen and (max-width: 480px){
+    .elementor-counter-number, .elementor-counter-number-suffix{
+      font-size: 22px;
+      text-align:center
+    } 
+    .elementor-counter-title{
+      font-size: 13px;
+      font-weight:600;
+      line-height:18px;
+      margin-top:8px
+      /* padding-:15px */
+    }
+    .elementor-widget-wrap {
+      margin-bottom: 0px;
+      z-index: 10;
+      height:60px;
+      padding: 41px 20px 35px 20px
+    }
+  }
+  @media screen and (max-width: 575px) {
+    .header-client {
+      margin-top: 0px;
+    }
+    .inner-discription {
+      font-size: 20px;
+      line-height: 25px;
+      margin-top: 20px
+    }
+  
+    .discovery-img {
+      height: 220px;
+      width: 210px;
+      object-fit: contain;
+    }
+  
+    .elementor {
+      text-align: center;
+      color: #201F1F;
+      margin-top: 25px;
+      line-height: 25px;
+      padding: 0px;
+      font-size: 14px;
+    }
+  
+    .main-wrap {
+      padding: 80px 50px;
+    }
+  
+    .copy-write-txt {
+      text-align: center;
+    }
+  
+    .sliderImg {
+      max-height: 170px;
+    }
+  
+    .responsive-contain {
+      padding-right: 0px;
+    }
+    .stright-line::after{
+      content:'';
+      position: absolute;
+      width: 1px ;
+      height: 30%;
+      margin-top: -13%;
+      background: #444;
+      justify-content: right;
+      align-items: right;
+      display: flex;
+      margin-left:44%
+    }
+    .text-img{
+      width:70px;
+      height: 70px;
+      margin-top: 30px;
+    }
+    .header-technology-content{
+      padding:10px 20px
+    }
+    .tab-list{
+      margin: 50px 0px 10px 0px;
+      padding: 8px 10px 8px 20px;
+      font-size:12px
+    }
+    .css-1p823my-MuiListItem-root{
+      padding-left: 8px !important;
+      padding-right: 8px !important;
+    }
+    .description{
+      padding-left:50px;
+      padding-right:50px;
+      font-size:14px;
+      font-weight:600
+    }
+    .elementor-widget-wrap {
+      margin-bottom: 10px;
+      z-index: 10;
+      height: 140px;
+      margin-left: 10px;
+    }
+    .main-widget-wrap-container{
+      display:flex;
+      justify-content:center;
+      align-item:center
+    }
+    .elementor-container{
+      gap: 15px;
+    }
+    .banner-description{
+      font-size:13px
+    }
+    .header-title{
+      font-size:22px
+    }
+    .banner-wrapper{
+      width:90% !important;
+      justify-content:center;
+      padding-right:0px
+    }
+    .inner-discription{
+      font-size:20px;
+      margin-top:12px;
+      line-height:28px;
+      padding:0px 20px
+    }
+  }

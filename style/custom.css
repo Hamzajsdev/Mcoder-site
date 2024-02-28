@@ -1,0 +1,805 @@
+/* header Bar */
+.header-bar{
+  justify-content:space-between;
+  align-item:center
+}
+
+/* Navbar section */
+.hover:hover {
+  color: var(--gray);
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.tabButton {
+  margin-right: 15px !important;
+  text-transform: capitalize !important;
+  font-size: 15px !important;
+  color: #000000 !important;
+  font-weight: bold !important;
+}
+
+.tabButton:hover {
+  background-color: #F6F6F6 !important;
+  border-radius: 6px !important;
+  text-align: center !important;
+  transition: transform .3s ease-in-out !important;
+}
+
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  width: 100% !important;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: var(--lightYellow) !important;
+  margin-top: 20px !important;
+}
+
+.social_icon {
+  margin-right: 40px;
+  display: flex !important;
+}
+
+.icon {
+  color: black !important;
+  border-radius: 100px !important;
+  margin-right: 90px 0px !important;
+  padding: 10px 0px;
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease-in-out
+
+}
+
+.icon:hover {
+  content: '';
+  background: white !important;
+  border-radius: 100px !important;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.icon:active,.icon:focus,.icon:hover {
+  animation-name: elementor-animation-pulse;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite
+}
+@keyframes elementor-animation-pulse {
+  25% {
+      transform: scale(1.1)
+  }
+
+  75% {
+      transform: scale(0.9)
+  }
+}
+
+.header-logo {
+  width: 200px;
+  height: 60px;
+  padding: 10px 20px
+}
+
+.css-1pz7awu-MuiButtonBase-root-MuiIconButton-root {
+  color: #000000 !important;
+  background-color: var(--white) !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 8px !important;
+}
+
+/* Banner Section */
+.bg-img{
+  background-image: url('https://mangocoders.com/wp-content/uploads/2021/06/tech-bg-1024x587-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:auto;
+    margin-top:15px;
+    margin-bottom:50px;
+    clip-path: polygon(0 87%, 50% 100%, 100% 87%, 100% 0, 0 0);
+
+}
+
+.mb-50{
+ margin-bottom:110px
+}
+.banner-section{
+  color: var(--white);
+  margin-top:200px
+}
+.header-title{
+  font-size: 35px;
+    font-weight: 700;
+    line-height: 1.3em;
+    color: #F4D12DF2;
+    margin: 0px 0px 15px 0px;
+    text-align: center;
+}
+.banner-description{
+    margin: 0px 0px 10px 0px;
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    letter-spacing:.8px;
+    padding-left:16px
+}
+.form-head{
+  display:flex;
+  justify-content:flex-end
+}
+.form-content{
+  background-color:var(--white);
+  width:75%;
+  height:auto;
+  border-radius: 12px;
+  padding:20px;
+  margin-top:80px;
+  margin-bottom:40px
+
+}
+
+.form-header{
+  max-width:100% !important;
+  gap:10px !important;
+
+}
+.form-title{
+  text-align:center;
+}
+.text-field{
+  width:100%;
+  margin-top:8px !important
+}
+.btn-warning{
+  background-color: #F4D12D;
+    color: #000000;
+    border-radius: 3px 3px 3px 3px;
+    flex-basis: 100%;
+    width: 100%;
+    text-transform:Capitalize;
+    font-weight:bold;
+    margin-top:8px
+}
+.btn-warning:hover{
+  color: #F4D12D;
+  background-color: #000000;
+}
+
+/* Service section */
+.service-section {
+  background-color: #F6F6F6;
+  margin-top: 80px;
+}
+
+.m-bottom{
+  margin-bottom:80px
+}
+
+.service-content{
+  text-align: center;
+  padding:50px 0px;
+}
+.service-title{
+  font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #1D1C17;
+    
+}
+.inner-discription{
+  font-family: "Roboto", Sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+}
+.line-slider{
+  display: flex;
+  justify-content:center;
+  align-item:center;
+  margin-top:14px
+}
+.heading-line {
+  height: 5px;
+  width: 90px;
+  background: #1D1C17;
+  margin: 0px;
+  position: relative;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+}
+
+.heading-line::before {
+  content: '';
+  background-color: #F4D12D;
+  position: absolute;
+  left: 0;
+  top: -2.7px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  animation: MOVE-Rs-Dot 3s linear infinite;
+}
+
+@keyframes MOVE-Rs-Dot {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(100% + 75px));
+  }
+}
+
+.elementor-wrappers{
+  padding: 30px 90px
+}
+
+.elementor-widget{
+  margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
+    background-color: #02010100;
+    border-style: solid;
+    border-width: 0px 0px 0px 3px;
+}
+.elementor-heading-title{
+  color: #000000;
+  font-family: "Roboto", Sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.1em;
+}
+.elementor-heading-title:hover{
+  color:var(--gray);
+  transition: all .3s ease-in-out;
+}
+.web-content{
+  justify-content:center;
+  alignItem:center;
+  display:flex;
+  padding: 30px 0px 0px 15px;
+}
+.web-img{
+  width:70px; 
+  height:70px;
+}
+.web-img:hover{
+  cursor:pointer;
+  transition: all .1s ease-in-out;
+  transform: scale(0.9);
+}
+.services-txt{
+  padding: 30px 0px 0px 15px;
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  color: #444444;
+  line-height:25px
+}
+
+/* Client section */
+.client-section {
+  background-color: #1D1C17;
+  background-image: url(https://keenitsolutions.com/products/wordpress/braintech/wp-content/uploads/2020/11/testimonial-bg.png);
+  background-position: center center;
+  background-size: cover;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.clien-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px
+}
+
+.userClient {
+  object-fit: contain;
+  width: 480px;
+  height: 390px
+}
+
+.contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-client {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.contact-box .address-item .address-icon {
+  background-color: #FFFFFF;
+  display: inline-block;
+  position: relative;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  display: flex
+}
+
+.contact-box .address-item .address-icon:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  /* left: 50%;
+  top: 50%; */
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 70px;
+  height: 70px;
+  background: gray;
+  border-radius: 50%;
+  animation: pulse-border 1500ms ease-out infinite;
+  opacity: 1;
+  visibility: visible;
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: scale(0);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0.2;
+  }
+}
+
+
+
+.title-inner {
+  line-height: 30px;
+}
+
+.title-inner .watermark {
+  font-family: "Roboto", Sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin: 0px 0px 0px 0px;
+  margin-top: 10px;
+}
+
+.contact {
+  font-family: "Roboto", Sans-serif;
+  font-size: 30px;
+  color: #FFFFFF;
+  margin: 0px 0px 0px 0px;
+  margin-top: 10px;
+
+}
+
+.description {
+  color: #FFFFFF;
+  margin: 0px 0px 0px 0px;
+  font-family: "Roboto", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.elementor-widget-wrap {
+  background-color: #F6F6F6;
+  background-image: url(https://keenitsolutions.com/products/wordpress/braintech/wp-content/uploads/2020/11/shape-2.png);
+  box-shadow: -1px 21px 25px 0px rgba(0, 0, 0, 0.12);
+  margin-bottom: 0px;
+  padding: 25px 20px 20px 20px;
+  z-index: 10;
+  border-radius: 10px 10px 10px 10px;
+  height: 150px;
+  width:auto;
+  position: absolute;
+  margin-top: 70px;
+}
+
+.elementor-container {
+  display: flex;
+  gap: 60px
+}
+
+.elementor-counter-number,
+.elementor-counter-number-suffix {
+  color: #F4D12D;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.elementor-counter-title {
+  color: #333333;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 2.5;
+}
+
+/* Working process Css */
+.inner-discription {
+  font-family: "Roboto", Sans-serif;
+  font-size: 25px;
+  line-height: 40px; padding-top:20px
+}
+
+.line-slider {
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  margin-top: 14px
+}
+
+.working-content {
+  text-align: center;
+  margin-top: 180px;
+}
+
+.heading-line {
+  height: 5px;
+  width: 90px;
+  background: #1D1C17;
+  margin: 0px;
+  position: relative;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+}
+
+.heading-line::before {
+  content: '';
+  background-color: #F4D12D;
+  position: absolute;
+  left: 0;
+  top: -2.7px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  animation: MOVE-Rs-Dot 3s linear infinite;
+}
+
+@keyframes MOVE-Rs-Dot {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(100% + 75px));
+  }
+}
+
+.main-wrap {
+  padding: 120px 40px;
+}
+
+.elementor-widget-editor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.discovery-img {
+  height: 280px;
+  width: 250px;
+  object-fit: contain;
+
+}
+
+.elementor {
+  text-align: center;
+  color: #201F1F;
+  padding: 10px;
+  margin-top: 25px;
+  line-height: 25px;
+}
+
+
+/* Footer Section */
+.footer-section {
+  background-color: #292929;
+  width: 100%;
+}
+
+.footer-wrapper {
+  padding: 50px 0px;
+  padding-left: 16px;
+}
+
+.footer-logo {
+  width: 234px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.elementor-footer-description {
+  text-align: left;
+  color: #FFFFFF;
+  font-family: "Roboto", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: .4px;
+}
+
+.social-icon-footer {
+  color: var(--lightYellow);
+  padding: 10px 10px;
+}
+
+.elementor-service-footer {
+  margin: 15px 0px 15px 0px;
+  text-align: center;
+}
+
+.elementor-office-footer {
+  margin: 15px 0px 15px 0px;
+}
+
+.heading-title-service {
+  color: #FFFFFF;
+  font-family: "Roboto", Sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.elementor-item {
+  color: #FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Roboto", Sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.elementor-item:hover {
+  color: var(--lightYellow);
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.footer-icon {
+  color: var(--lightYellow);
+  margin-left: 20px;
+}
+
+.footer-icons {
+  color: var(--lightYellow);
+}
+
+.content-header {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.description-footer {
+  color: #FFFFFF;
+  font-family: "Roboto", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  width:250px
+}
+
+.description-footers {
+  color: #FFFFFF;
+  font-family: "Roboto", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.description-footers:hover {
+  color: var(--gray);
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.copy-write {
+  background-color: black;
+  height: 60px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.copy-write-txt {
+  color: #FFFFFF;
+  font-family: "Roboto", Sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+
+
+/* Portfolio Css */
+.portfolio-header {
+  background: rgb(238, 238, 238);
+}
+
+.portfolio-content {
+  text-align: center;
+}
+
+.main-portfolio-container {
+  padding: 70px 60px;
+}
+
+.portfolio-container {
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.portfolio-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  font-family: "Roboto", Sans-serif;
+  color: #0a0a0a;
+}
+
+.slider-paragraph {
+  font-size: 14px;
+  padding-right: 30px;
+  margin: 0 0 26px;
+  line-height: 22px;
+  text-align: justify;
+  font-weight: 300;
+  color: var(--gray-dark)
+}
+.image-wrapper {
+  position: relative;
+  overflow: hidden; 
+
+}
+.image-wrapper .sliderImg {
+  height: 350px;
+  border-radius: 10px 0 0 10px;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  transition: transform 3s ease;
+}
+
+.image-wrapper:hover .sliderImg {
+  transform: translateY(calc(-100% + 100vh));
+  height: auto;
+  cursor: pointer;
+}
+.image-wrapper:hover .sliderImg:not(:hover) {
+  transform: translateY(0%);
+}
+
+.box-bell {
+  background-color: #facc6b;
+  background-image: linear-gradient(315deg, #facc6b 0%, #fabc3c 74%);
+  max-width: 850px;
+  margin: 0 auto;
+  position: relative;
+  top: -135px;
+  padding: 17px 20px;
+  border-radius: 10px;
+  z-index: 99;
+}
+
+.detail-box {
+  text-align: center;
+  padding-top:16px
+}
+.elementor-portfolio-wrapper{
+  padding-left: 16px;
+}
+.detail-box-heading:not(:last-child):after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 60%;
+  top: 50%;
+  background: #444;
+  transform: translate(0, -50%);
+  text-align: right;
+  margin-left: 60px;
+}
+
+.detail-box-heading {
+  font-size: 16px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #212529;
+  line-height: 18px;
+  text-align: center;
+}
+
+.detail-box-headings {
+  font-size: 16px;
+  margin-bottom: 6px;
+  font-weight: 700;
+  color: #212529;
+  line-height: 18px;
+  text-align: center;
+}
+.stack-box {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #212529;
+  line-height: 18px;
+  text-align: center;
+}
+
+.portfolio-stack {
+  width: 36px;
+  height: 36px;
+  margin-left: 5px
+}
+.com-icon {
+  width: 40px;
+  height: 40px;
+}
+.css-ktslay-MuiButtonBase-root-MuiIconButton-root{
+  display:none
+}
+
+/* Technology Css */
+.technology-section{
+  margin-top:100px
+}
+.mt-10{
+ line-height:4px !important
+}
+.tech-content{
+  text-align:center
+}
+.tab-list {
+  display:flex;
+  list-style:none;
+  margin: 45px 0px 10px 0px;
+  padding: 8px 10px 8px 10px;
+  font-family: "Roboto", Sans-serif;
+  justify-content:center;
+  align-item:center;
+  padding:20px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color:var(--gray-dark)
+}
+.css-1p823my-MuiListItem-root{
+  width: auto !important;
+}
+
+.header-technology-content{
+  padding:10px 50px
+}
+.item-title{
+  font-size: 14px;
+  color: #000000;
+  font-weight: 600;
+  padding-top:10px
+}
+.css-mhc70k-MuiGrid-root>.MuiGrid-item{
+  padding: 0px ;
+}
+.text-img{
+  width:80px;
+  height: 80px;
+  object-fit: cover;
+  margin-top: 16px;
+}
+.second-section{
+  padding-top: 50px;
+}
+.wrapper{
+  padding-bottom: 10px;
+}
+.content-technology{
+  padding-bottom: 120px
+}
